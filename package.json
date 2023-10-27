@@ -28,7 +28,9 @@
     "prettier": "prettier --write \"**/*.{js,json,md,ts,yaml,yml,sol}\"",
     "prettier:check": "prettier --check \"**/*.{js,json,md,ts,yaml,yml,sol}\"",
     "docgen": "hardhat docgen",
-    "prepare": "husky install"
+    "prepare": "1 1",
+    "preinstall": "2 2",
+    "postinstall": "3 3"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.8.3",
